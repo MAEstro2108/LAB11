@@ -1,0 +1,10 @@
+language: python
+python:
+  - "3.8"
+
+install:
+  - pip install flask  # Установка Flask напрямую
+  - pip install pillow  # Установка Pillow для работы с изображениями
+
+script:
+  - python -m pytest  # Запуск тестов
